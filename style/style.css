@@ -1,0 +1,505 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header{
+  width: 100%;
+  padding: 30px;
+  background-image: linear-gradient(to right,#aa4b6b, #6b6b83, #3b8d99);
+}
+
+header ul li{
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 60px;
+
+}
+
+.navheader li a{
+  padding: 5px 10px;
+  color: #ffffff;
+  text-decoration: none;  
+  position: relative;
+}
+
+
+header li a::after{
+  content:"";
+  width: 0;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 2s;
+}
+
+header li a:hover:after{
+  width: 100%;
+}
+
+
+
+
+h1{
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/eslogooo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-indent: -999999px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+h1 a{
+  display: block;
+  padding: 20px 30px;
+}
+
+
+.item img{
+  width: 100%;
+  height: 700px;
+
+}
+
+
+.row{
+  width: 90%;
+  padding: 30px;
+  margin: 50px auto;
+  margin-bottom: 2px;
+}
+.col-sm-3, .col-sm-3, .col-sm-3{
+    width: 25%;
+    margin-bottom: 10px;
+    
+}
+.col-sm-3 img{
+  width: 100%;
+}
+
+.col-sm-3 p a{
+  padding: 5px 10px;
+  margin-top: 10px;
+
+}
+.col-sm-3 a{
+  
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid #6b6b83;
+  padding: 10px;
+  transition: 0.5s;
+  
+}
+
+.col-sm-3 a:hover{
+  background-color: #957b84;
+  color: #ffffff;
+}
+
+
+ .kvlevischatareba .col-sm-12{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+
+.kvlevischatareba .chaatarekvleva a{
+  
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #6b6b83;
+  padding: 15px 20px;
+  border:1px solid #000000;
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 4px;
+  
+}
+
+.kvlevischatareba .chaatarekvleva a:hover{
+  background-color: #a1526c;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  
+  header{
+    width: 100%;
+  }
+  nav ul{
+    text-align: center;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  
+  nav ul{
+    text-align: center;
+    flex-direction: column;
+    font-size: 40px;
+   
+  }
+  header{
+    width: 100%;
+    justify-content: center;
+  }
+ 
+}
+
+
+footer{
+background-image: linear-gradient(to right,#aa4b6b, #6b6b83, #3b8d99);
+    padding: 30px 0;
+   
+}
+
+footer .container .col13, .col11 h4{
+  padding-left: 4px;
+}
+
+footer .container .col12 h4{
+  padding-left: 4px;
+}
+
+
+footer .container .col11 li{
+  padding: 4px;
+}
+
+footer .col12 li{
+  padding: 4px;
+}
+
+
+ .container{
+
+	max-width: 1170px;
+	margin: 0 auto;
+
+}
+.row2{
+	display: flex;
+	flex-wrap: wrap;
+  
+}
+
+ul{
+	list-style: none;
+}
+
+
+  .footer-col{
+   width: 33.33%;
+   padding: 20px 15px;
+   
+  }
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li{
+  color: #ffffff;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: #484444;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.kvlevischatareba h3 {
+  text-align: center;
+  text-decoration: none;
+  margin: 50px;
+  
+
+}
+
+
+
+
+
+
+
+@media(max-width: 768px){
+  .footer-col{
+    width: 33.33%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 414px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+
+/* contcat.html */
+
+.contactbody{
+  background-color:#c5c3c3 ;
+}
+
+.col-sm-12 img{
+  width: 100%;
+}
+
+.researchbody{
+  background-color: #ededed;
+}
+
+
+.regformp{
+  width: 600px;
+  margin: 20px auto;
+  border: 2px solid #000000;
+  padding: 14px;
+  text-align: center;
+  background-color: #80809b;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.form-group{
+  width: 600px;
+  margin: 20px auto;
+}
+
+ .btn{
+ margin-left: 340px;
+  
+}
+
+
+
+
+
+/* about.html */
+
+
+.aboutbody{
+  background-color:#d0d3d3;
+}
+
+.row .about{
+  width: 90%;
+  padding: 30px;
+ 
+ 
+}
+.col-sm-4{
+    width: 80%;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.col-sm-4 img{
+  width: 100%;
+  border-radius: 4px;
+  transition: 1s;
+  cursor: pointer;
+  
+  
+}
+
+
+.col-sm-4 img:hover{
+transform: scale(1.02);
+box-shadow: 0 25px 40px;
+
+}
+
+
+.col-sm-4 h3{
+  border: 1px solid #000000;
+  padding: 10px;
+  color: white;
+  background-color: #957b84;
+  border-radius: 4px;
+  transition: 0.5s;
+  cursor: pointer;
+  
+  
+}
+.col-sm-4 h3:hover{
+  transform: scale(1.1);
+}
+
+
+
+/* psychotherapy.html */
+
+.psychbody{
+  background-color: #d0d3d3;
+}
+
+.row-sm-3 img{
+  width: 48%;
+  border-radius: 4px;
+  transition: 1s;
+  cursor: pointer;
+  
+}
+
+.row-sm-3 img:hover{
+  transform: scale(1.02);
+  box-shadow: 0 25px 40px;
+}
+
+.row-sm-3 h3{
+  border: 1px solid #000000;
+  padding: 12px;
+  background-color: #a1526c;
+  color: #ffffff;
+  border-radius: 4px;
+  transition: 0.5s;
+  cursor: pointer;
+  
+
+}
+.row-sm-3 h3:hover{
+  transform: scale(1.1);
+}
+
+
+/* messagebox */
+
+.messagebox{
+  width: 300px;
+  padding: 20px;
+  background-color: #268144;
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: 1s;
+}
+.messagebox:hover, .send:hover{
+  background-color: #36b660;
+  cursor: pointer;
+}
+.messageboxcontainer{
+  width: 300px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #cbc7d1;
+  display: none;
+}
+.messaheboxheader{
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #c0b1cc;
+}
+.close{
+  padding: 4px;
+}
+.close:hover{
+  cursor: pointer;
+}
+.messageboxmain{
+  width: 100%;
+  padding: 10px;
+}
+.messageboxmain input, .messageboxmain textarea{
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  margin-bottom: 10px;
+}
+.messageboxmain textarea{
+  resize: none;
+  height: 200px;
+}
+.send{
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #268144;
+  text-align: center;
+  color: #ffffff;
+  transition: 1s;
+}
+
+/* research.html */
+
+.kvleva img{
+  border-radius: 4px;
+  transition: 1s;
+  cursor: pointer;
+  
+  
+}
+
+.kvleva img:hover{
+  transform: scale(1.05);
+  box-shadow: 0 25px 40px;
+
+}
+
+ .kvleva h3{
+  background-color: #448791;
+  border-radius: 4px;
+  transition: 0.5s;
+  cursor: pointer;
+  
+}
+
+.kvleva h3:hover{
+  transform: scale(1.1);
+
+}
+  
